@@ -49,7 +49,7 @@ export SiamMask=$PWD
 conda create -n siammask python=3.6 anaconda
 source activate siammask
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
-pip3 install opencv-python
+pip3 install opencv-python==4.1.1.26
 pip3 install cython
 bash make.sh
 ```
